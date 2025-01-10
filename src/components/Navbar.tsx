@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
 
 export const Navbar = () => {
-  const navigation = ["About", "Services", "Projects" /*"Company"*/, , "Blog"];
+  const navigation = ["About", "Services", "Projects", "Blog"];
 
   return (
     <div className="w-full">
@@ -34,7 +34,7 @@ export const Navbar = () => {
               href="/"
               className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5"
             >
-              Let's Talk
+              Let&apos;s Talk
             </Link>
           </div>
         </div>
