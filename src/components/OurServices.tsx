@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "@/components/Container";
-import Image from "next/image";
 
 export const OurServices = () => {
   return (
@@ -18,7 +17,7 @@ export const OurServices = () => {
         <div className="grid lg:grid-cols-3 gap-10 mb-6">
           <div className="p-8 border text-center border-gray-100 shadow-sm rounded-lg hover:scale-105 cursor-pointer duration-100">
             <div className="text-center p-5 bg-indigo-50 rounded-lg inline-block">
-              <Image
+              <img
                 className=""
                 src="https://admin.hecolab.id/uploads/frontend_icon_1987a458bd.png"
                 alt="Web Development Icon"
@@ -34,7 +33,7 @@ export const OurServices = () => {
           </div>
           <div className="p-8 border text-center border-gray-100 shadow-sm rounded-lg hover:scale-105 cursor-pointer duration-100">
             <div className="text-center p-5 bg-indigo-50 rounded-lg inline-block">
-              <Image
+              <img
                 className=""
                 src="https://admin.hecolab.id/uploads/customer_service_icon_5ada3c3bfb.png"
                 alt="Digital Marketing Icon"
@@ -50,7 +49,7 @@ export const OurServices = () => {
           </div>
           <div className="p-8 border text-center border-gray-100 shadow-sm rounded-lg hover:scale-105 cursor-pointer duration-100">
             <div className="text-center p-5 bg-indigo-50 rounded-lg inline-block">
-              <Image
+              <img
                 className=""
                 src="https://admin.hecolab.id/uploads/mobile_icon_eab0dfd8c9.png"
                 alt="Mobile Development Icon"
