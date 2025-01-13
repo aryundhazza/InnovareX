@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "./Container";
+import Image from "next/image";
 
 export const Advantages = () => {
   return (
@@ -214,7 +215,7 @@ export const Advantages = () => {
                     fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
                   ></rect>
                 </svg>
-                <img
+                <Image
                   className="relative mx-auto"
                   width="350"
                   src="/img/hero-2.webp"

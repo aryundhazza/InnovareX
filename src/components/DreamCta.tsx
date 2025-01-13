@@ -17,8 +17,8 @@ export const DreamCTA = () => {
               or company and mobile apps?
             </h2>
             <p className="text-gray-800 dark:text-white mb-8">
-              Contact us to share your startup idea/concept and we'll make it a
-              reality.
+              Contact us to share your startup idea/concept and we&apos;ll make
+              it a reality.
             </p>
             <a
               href="https://wa.me/+6282248289273"
