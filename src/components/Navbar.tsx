@@ -14,12 +14,12 @@ export const Navbar = () => {
             <Image
               src="/img/logo.svg"
               width="32"
-              alt="N"
+              alt="I"
               height="32"
               className="w-8"
             />
           </span>
-          <span>Nextly</span>
+          <span>Innovarex</span>
         </span>
       </Link>
 
@@ -65,7 +65,7 @@ export const Navbar = () => {
               </svg>
             </Disclosure.Button>
 
-            <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
+            {/* <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
               <>
                 <Link
                   href="/about"
@@ -80,7 +80,7 @@ export const Navbar = () => {
                   Services
                 </Link>
                 <Link
-                  href="/projects"
+                  href="#projects"
                   className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
                 >
                   Projects
@@ -91,6 +91,32 @@ export const Navbar = () => {
                 >
                   Blog
                 </Link>
+                <Link
+                  target="_blank"
+                  href="https://wa.me/+6289510678123"
+                  className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5"
+                >
+                  Let&apos;s Talk
+                </Link>
+              </>
+            </Disclosure.Panel> */}
+
+            <Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
+              <>
+                {[
+                  { href: "/about", label: "About" },
+                  { href: "/web-service", label: "Services" },
+                  { href: "#projects", label: "Projects" },
+                  { href: "/blog", label: "Blog" },
+                ].map((item) => (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
                 <Link
                   target="_blank"
                   href="https://wa.me/+6289510678123"
@@ -122,7 +148,7 @@ export const Navbar = () => {
         </Link>
         <Link
           className="text-sm text-gray-900 dark:text-gray-100 font-semibold leading-6 relative group"
-          href="/projects"
+          href="#projects"
         >
           Projects
           <span className="absolute -bottom-0 left-0 w-0 h-1 rounded-lg bg-indigo-600 transition-all group-hover:w-full"></span>

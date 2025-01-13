@@ -1,18 +1,18 @@
 import React from "react";
 import { Container } from "@/components/Container";
 
-export const Cta = () => {
+export const WhatsappCta = () => {
   return (
     <Container>
       <section id="whatsapp-cta" className="mx-auto w-full mb-16 mt-16">
-        <div className="bg-indigo-600 py-12 text-white rounded-lg text-center">
+        <div className="bg-indigo-600 dark:bg-trueGray-900 py-12 text-white rounded-lg text-center">
           <h2 className="text-xl lg:text-2xl mb-6 px-3 text-white">
             Consult your needs, we will provide the best solution
           </h2>
           <a
             target="_blank"
-            href="https://wa.me/+6289510678123"
-            className="rounded-lg hover:bg-yellow-500 bg-yellow-400 text-slate-900 font-bold p-4 mt-6 inline-flex gap-2"
+            href="https://wa.me/+6282248289273"
+            className="rounded-lg hover:bg-green-600 bg-green-500 text-slate-900 font-bold p-4 mt-6 inline-flex gap-2"
           >
             <svg
               fill="#000000"

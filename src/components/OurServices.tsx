@@ -6,15 +6,15 @@ export const OurServices = () => {
     <Container>
       <section
         id="services"
-        className="mx-auto max-w-md sm:max-w-3xl lg:max-w-7xl mb-12"
+        className="mx-auto max-w-md sm:max-w-3xl lg:max-w-7xl mb-6 mt-6"
       >
         <div className="text-center mb-8">
-          <h2 className="font-bold text-3xl lg:text-4xl mb-2">Our Services</h2>
+          <h2 className="font-bold text-3xl lg:text-4xl py-4">Our Services</h2>
           <p className="leading-9">
             Managing your business with our best service
           </p>
         </div>
-        <div className="grid lg:grid-cols-3 gap-10 mb-6">
+        <div className="grid lg:grid-cols-3 gap-10">
           <div className="p-8 border text-center border-gray-100 shadow-sm rounded-lg hover:scale-105 cursor-pointer duration-100">
             <div className="text-center p-5 bg-indigo-50 rounded-lg inline-block">
               <img
