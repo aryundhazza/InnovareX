@@ -141,7 +141,7 @@ export const Navbar = () => {
         </Link>
         <Link
           className="text-sm text-gray-900 dark:text-gray-100 font-semibold leading-6 relative group"
-          href="/web-service"
+          href="#services"
         >
           Services
           <span className="absolute -bottom-0 left-0 w-0 h-1 rounded-lg bg-indigo-600 transition-all group-hover:w-full"></span>

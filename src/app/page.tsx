@@ -10,6 +10,7 @@ import { PhoneCta } from "@/components/PhoneCta";
 import { Advantages } from "@/components/Advantage";
 import { DreamCTA } from "@/components/DreamCta";
 import { ProjectsSection } from "@/components/Projects";
+
 export default function Home() {
   return (
     <Container>
