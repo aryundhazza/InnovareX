@@ -77,8 +77,8 @@ export const Workflow = () => {
             3. Solution Planning
           </h3>
           <p className="mt-3">
-            Designing solutions that address the problems and meet the client's
-            business needs.
+            Designing solutions that address the problems and meet the
+            client&apos;s business needs.
           </p>
         </div>
         <div className="p-8 mt-3 text-center border-indigo-600 shadow-lg dark:shadow-indigo-600 rounded-lg hover:scale-105 cursor-pointer duration-100">
@@ -195,7 +195,8 @@ export const Workflow = () => {
           </h3>
           <p className="mt-3">
             Monitor system performance regularly to ensure that the system is
-            running properly and providing benefits to the client's business.
+            running properly and providing benefits to the client&apos;s
+            business.
           </p>
         </div>
       </div>

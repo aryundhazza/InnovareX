@@ -24,7 +24,7 @@ const GoalSection = () => {
               <b>Mission</b>
               <p className="pt-8 text-lg sm:text-xl">
                 Providing innovative, effective and efficient digital solutions
-                to meet customers' business needs.
+                to meet customers&apos; business needs.
               </p>
             </div>
           </div>

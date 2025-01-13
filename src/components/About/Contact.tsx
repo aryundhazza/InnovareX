@@ -9,7 +9,7 @@ const ContactSection = () => {
         <div className="space-y-6">
           <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl text-center">
             <h1 className="mx-auto text-5xl font-bold w-min sm:-tracking-normal text-gray-800 dark:text-white sm:text-5xl">
-              Let's Collaborate!
+              Let&apos;s Collaborate!
             </h1>
           </div>
           <div className="grid sm:grid-cols-2 mx-auto">
