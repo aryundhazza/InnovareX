@@ -20,8 +20,10 @@ export const OurServices = () => {
             <div className="text-center p-5 bg-indigo-50 rounded-lg inline-block">
               <Image
                 className=""
-                src="https://admin.hecolab.id/uploads/frontend_icon_1987a458bd.png"
+                src="/img/project/wd.png"
                 alt="Web Development Icon"
+                width={64}
+                height={64}
               />
             </div>
             <h3 className="text-xl mt-3 font-medium mb-4">
@@ -36,8 +38,10 @@ export const OurServices = () => {
             <div className="text-center p-5 bg-indigo-50 rounded-lg inline-block">
               <Image
                 className=""
-                src="https://admin.hecolab.id/uploads/customer_service_icon_5ada3c3bfb.png"
+                src="/img/project/dm.png"
                 alt="Digital Marketing Icon"
+                width={64}
+                height={64}
               />
             </div>
             <h3 className="text-xl mt-3 font-medium mb-4">
@@ -52,8 +56,10 @@ export const OurServices = () => {
             <div className="text-center p-5 bg-indigo-50 rounded-lg inline-block">
               <Image
                 className=""
-                src="https://admin.hecolab.id/uploads/mobile_icon_eab0dfd8c9.png"
+                src="/img/project/md.png"
                 alt="Mobile Development Icon"
+                width={64}
+                height={64}
               />
             </div>
             <h3 className="text-xl mt-3 font-medium mb-4">

@@ -218,6 +218,7 @@ export const Advantages = () => {
                 <Image
                   className="relative mx-auto"
                   width="350"
+                  height="200"
                   src="/img/hero-2.webp"
                   alt=""
                 />

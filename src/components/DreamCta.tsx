@@ -37,6 +37,8 @@ export const DreamCTA = () => {
               src="/img/sample.webp"
               alt="Gambar"
               className="rounded-lg shadow-sm"
+              width={300}
+              height={200}
             />
           </div>
         </div>

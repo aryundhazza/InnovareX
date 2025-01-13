@@ -112,7 +112,7 @@ export const ProjectsSection: React.FC = () => {
                 key={index}
                 className="relative shadow-sm group cursor-pointer"
               >
-                <Image
+                <img
                   className="rounded-lg md:h-64 md:object-cover w-auto h-auto"
                   src={project.imgSrc}
                   alt={project.alt}
