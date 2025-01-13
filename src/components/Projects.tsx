@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "./Container";
+import Image from "next/image";
 
 interface Project {
   imgSrc: string;
@@ -111,7 +112,7 @@ export const ProjectsSection: React.FC = () => {
                 key={index}
                 className="relative shadow-sm group cursor-pointer"
               >
-                <img
+                <Image
                   className="rounded-lg md:h-64 md:object-cover w-auto h-auto"
                   src={project.imgSrc}
                   alt={project.alt}

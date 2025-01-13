@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "./Container";
+import Image from "next/image";
 
 export const DreamCTA = () => {
   return (
@@ -32,7 +33,7 @@ export const DreamCTA = () => {
 
           {/* Image Content */}
           <div>
-            <img
+            <Image
               src="/img/sample.webp"
               alt="Gambar"
               className="rounded-lg shadow-sm"
