@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 // Define a type for service items
 interface ServiceItem {
@@ -15,27 +16,43 @@ const services: ServiceItem[] = [
     id: 1,
     title: "Web Development",
     description:
-      "Our web development services help you build a professional website that is both attractive and easy to use.",
-    imageUrl: "https://admin.hecolab.id/uploads/frontend_icon_1987a458bd.png",
+      "Kami menyediakan layanan web development yang komprehensif untuk membantu bisnis Anda mencapai tujuan online. Dengan pengalaman dan keahlian kami, kami dapat membantu Anda menciptakan website yang efektif, efisien, dan mudah digunakan.",
+    imageUrl: "/services/web.png",
     link: "/en/web-service",
   },
   {
     id: 2,
     title: "Digital Marketing",
     description:
-      "We help increase customer engagement and promote your product or service through various social media platforms.",
+      "Kami menyediakan layanan digital marketing yang komprehensif untuk membantu bisnis Anda mencapai tujuan online. Dengan pengalaman dan keahlian kami, kami dapat membantu Anda meningkatkan kesadaran merek, meningkatkan trafik website, dan meningkatkan konversi.",
     imageUrl:
-      "https://admin.hecolab.id/uploads/customer_service_icon_5ada3c3bfb.png",
+      "/services/digital.png",
     link: "/en/web-service",
   },
   {
     id: 3,
     title: "Mobile Development",
     description:
-      "Our mobile application development services help you build innovative and attractive mobile applications for iOS and Android platforms.",
-    imageUrl: "https://admin.hecolab.id/uploads/mobile_icon_eab0dfd8c9.png",
+      "Kami menyediakan layanan pengembangan aplikasi mobile yang komprehensif untuk membantu bisnis Anda mencapai tujuan online. Dengan pengalaman dan keahlian kami, kami dapat membantu Anda membuat aplikasi mobile yang efektif, efisien, dan mudah digunakan.",
+    imageUrl: "/services/mobile.png",
     link: "/en/web-service",
   },
+  {
+    id: 4,
+    title: "Desain Grafis",
+    description:
+      "Kami menyediakan layanan desain grafis yang komprehensif untuk membantu bisnis Anda mencapai tujuan visual. Dengan pengalaman dan keahlian kami, kami dapat membantu Anda membuat desain grafis yang efektif, efisien, dan menarik.",
+    imageUrl: "/services/design.png",
+    link: "/en/web-service",
+  },
+  {
+    id: 5,
+    title: "KOL Management",
+    description:
+      "Kami menyediakan layanan KOL Management yang komprehensif untuk membantu bisnis Anda meningkatkan kesadaran merek dan mencapai target audiens. Dengan pengalaman dan keahlian kami, kami dapat membantu Anda mengelola KOL yang efektif dan efisien.",
+    imageUrl: "/services/influencer.png",
+    link: "/en/web-service",
+  }
 ];
 
 // ServiceCard Component
@@ -48,7 +65,14 @@ const ServiceCard: React.FC<ServiceItem> = ({
   return (
     <div className="p-8 border text-center border-gray-100 shadow-sm rounded-lg hover:scale-105 cursor-pointer duration-100">
       <div className="text-center p-5 bg-indigo-50 rounded-lg inline-block">
-        <img src={imageUrl} alt={title} className="" />
+        <img src={imageUrl} alt={title} className="w-12" />
+        {/* <Image
+          src={imageUrl}
+          width={12}
+          height={12}
+          alt={title}
+          className="max-w-full h-auto" // Agar logo responsif
+        /> */}
       </div>
       <h3 className="text-xl mt-3 font-medium mb-4">
         <a href={link}>{title}</a>
@@ -66,9 +90,9 @@ const ServicesSection: React.FC = () => {
       className="mx-auto max-w-md sm:max-w-3xl lg:max-w-7xl px-4 sm:px-6 mb-12"
     >
       <div className="text-center mb-8">
-        <h2 className="font-bold text-3xl lg:text-4xl mb-2">Our Services</h2>
+        <h2 className="font-bold text-3xl lg:text-4xl mb-2">LAYANAN KAMI</h2>
         <p className="leading-9">
-          Managing your business with our best service
+          Kelola bisnis Anda dengan layanan terbaik kami
         </p>
       </div>
       <div className="grid lg:grid-cols-3 gap-10 lg:px-8 mb-6">

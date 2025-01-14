@@ -11,8 +11,7 @@ const Testimoni = () => {
           <div className="p-4 mt-2 border shadow-sm hover:scale-105 duration-100 flex lg:ml-[300px] lg:w-10/12 lg:mt-[-10px]">
             <div className="grid grid-rows-1 content-between">
               <p className="text-xs text-gray-600 text-left">
-                Very helpful and professional. 👍👍 Highly recommended for
-                creating a business website
+                Website yang dikembangkan oleh Innovarex sangat efektif dan efisien.
               </p>
               <div className="flex items-start mt-5">
                 <Image
@@ -25,7 +24,7 @@ const Testimoni = () => {
                   style={{ color: "transparent" }}
                 />
                 <p className="text-xs font-bold text-red-500 mt-2 pl-2">
-                  Nivea A Rizani
+                  Macnesa
                 </p>
               </div>
             </div>
@@ -33,11 +32,7 @@ const Testimoni = () => {
           <div className="p-4 mt-2 border shadow-sm hover:scale-105 duration-100 flex lg:ml-[300px] lg:w-10/12 lg:mt-[-10px]">
             <div className="grid grid-rows-1 content-between">
               <p className="text-xs text-gray-600 text-left">
-                Ramah dan cpt bgt pelayanannya. Orang-orangnya kompeten dan
-                profesional parahhh. Sukaaaa bgt sama Hecolab, beda dr yg lain.
-                AKU REKOMENDASIIN KALIAN DISINI AJA GAISSSS !!!! Ini agak lebay,
-                tp kalian akan nyesel kalo g pake jasa dr Hecolab. Udh segitu
-                dulu review dari aku ya gais. Sekian terimakasih
+                Kami sangat merekomendasikan Innovarex untuk layanan pengembangan aplikasi mobile. Sangat akurat untuk kehadiran di Aplikasi Mobile.
               </p>
               <div className="flex items-start mt-5">
                 <Image
@@ -50,7 +45,7 @@ const Testimoni = () => {
                   style={{ color: "transparent" }}
                 />
                 <p className="text-xs font-bold text-red-500 mt-2 pl-2">
-                  Nurul Janah
+                  Puji
                 </p>
               </div>
             </div>
@@ -58,9 +53,7 @@ const Testimoni = () => {
           <div className="p-4 mt-2 border shadow-sm hover:scale-105 duration-100 flex lg:ml-[300px] lg:w-10/12 lg:mt-[-10px]">
             <div className="grid grid-rows-1 content-between">
               <p className="text-xs text-gray-600 text-left">
-                Thanks hecolab for helping me create and publish my website, I
-                finally have a good website For My Core Business. Very
-                Recommend.
+                Meningkatkan brand awareness dan Membangun kepercayaan konsumen
               </p>
               <div className="flex items-start mt-5">
                 <Image
@@ -112,7 +105,7 @@ const Testimoni = () => {
           <div className="flex items-center mb-4">
             <p className="lg:ml-[30px] ml-4 text-xs">
               <span className="lg:mb-[-10px] lg:ml-[20px] text-xs font-bold">
-                5/5 | 33 Reviews
+                5/5 | 13 Reviews
               </span>
             </p>
           </div>
@@ -127,9 +120,9 @@ const Testimoni = () => {
         <div className="lg:mt-[-100px] mt-10 mb-[100px] lg:ml-[-10px] flex flex-col items-center justify-center">
           <button
             type="button"
-            className="mt-30 bg-yellow-400 hover:bg-yellow-500 text-blue-700 hover:text-white px-6 py-3 font-inter rounded-full font-semibold transition duration-300"
+            className="mt-[3rem] bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 hover:from-yellow-500 hover:via-yellow-600 hover:to-yellow-700 text-blue-700 hover:text-white px-8 py-4 font-inter rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
           >
-            Dapatkan Penawaran
+            Dapatkan Penawaran Menarik
           </button>
         </div>
       </div>

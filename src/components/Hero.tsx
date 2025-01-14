@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Container } from "@/components/Container";
-import heroImg from "../../public/img/hero.png";
+import heroImg from "../../public/hero.png";
 
 export const Hero = () => {
   return (
@@ -34,13 +34,13 @@ export const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center w-full lg:w-1/2">
+        <div className="flex items-center justify-end w-full lg:w-1/2">
           <div className="">
             <Image
               src={heroImg}
-              width="616"
+              width="666"
               height="617"
-              className={"object-cover"}
+              className={"object-cover scale-x-[-1]"}
               alt="Hero Illustration"
               loading="eager"
               placeholder="blur"

@@ -10,7 +10,7 @@ export const OurServices = () => {
         className="mx-auto max-w-md sm:max-w-3xl lg:max-w-7xl mb-6 mt-6"
       >
         <div className="text-center mb-8">
-          <h2 className="font-bold text-3xl lg:text-4xl py-4">Our Services</h2>
+          <h2 className="font-bold text-3xl lg:text-4xl py-4">LAYANAN KAMI</h2>
           <p className="leading-9">
             Managing your business with our best service
           </p>

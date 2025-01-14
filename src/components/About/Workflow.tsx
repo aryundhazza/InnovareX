@@ -5,7 +5,7 @@ export const Workflow = () => {
     <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl mb-10 mt-20 py-12">
       <div className="text-center mb-8">
         <h2 className="mb-4 text-center text-3xl sm:text-4xl font-bold leading-8 tracking-tight text-gray-900 dark:text-white">
-          Workflow
+          Alur
         </h2>
         <p className="leading-3">See how we work on projects</p>
       </div>
@@ -28,10 +28,11 @@ export const Workflow = () => {
             </svg>
           </div>
           <h3 className="text-xl mt-3 mb-4 font-medium">
-            1. Identification of Needs
+            1. Identifikasi Kebutuhan
           </h3>
           <p className="mt-3">
-            Identify needs and problems that need to be addressed.
+            ⁠Identifikasi Kebutuhan
+            Konsultasi dengan klien untuk memahami kebutuhan dan tujuan.
           </p>
         </div>
         <div className="p-8 mt-3 text-center border-indigo-600 shadow-lg dark:shadow-indigo-600 rounded-lg hover:scale-105 cursor-pointer duration-100">
@@ -52,10 +53,11 @@ export const Workflow = () => {
             </svg>
           </div>
           <h3 className="text-xl mt-3 mb-4 font-medium">
-            2. Technology Assessment
+            2. Penilaian Kebutuhan (Teknologi)
           </h3>
           <p className="mt-3">
-            Determine whether the technology is suitable for business needs.
+            Penilaian Kebutuhan (Teknologi)
+            Menentukan apakah teknologi tersebut sesuai dengan kebutuhan bisnis klien
           </p>
         </div>
         <div className="p-8 mt-3 text-center border-indigo-600 shadow-lg dark:shadow-indigo-600 rounded-lg hover:scale-105 cursor-pointer duration-100">
@@ -76,11 +78,10 @@ export const Workflow = () => {
             </svg>
           </div>
           <h3 className="text-xl mt-3 mb-4 font-medium">
-            3. Solution Planning
+            3. Analisis Kebutuhan
           </h3>
           <p className="mt-3">
-            Designing solutions that address the problems and meet the
-            client&apos;s business needs.
+            Merancang solusi yang bertujuan untuk mengatasi masalah dalam menuhi kebutuhan bisnis klien
           </p>
         </div>
         <div className="p-8 mt-3 text-center border-indigo-600 shadow-lg dark:shadow-indigo-600 rounded-lg hover:scale-105 cursor-pointer duration-100">
@@ -101,10 +102,10 @@ export const Workflow = () => {
             </svg>
           </div>
           <h3 className="text-xl mt-3 mb-4 font-medium">
-            4. Solution Implementation
+            4. ⁠Implementasi Solusi
           </h3>
           <p className="mt-3">
-            Once the plan is approved, we will start implementing the solution.
+            Mengimplementasikan solusi yang disetujui klien berdasarkan masalah yang bertujuan untk memenuhi kebutuhan bisnis klien
           </p>
         </div>
         <div className="p-8 mt-3 text-center border-indigo-600 shadow-lg dark:shadow-indigo-600 rounded-lg hover:scale-105 cursor-pointer duration-100">
@@ -124,10 +125,9 @@ export const Workflow = () => {
               ></path>
             </svg>
           </div>
-          <h3 className="text-xl mt-3 mb-4 font-medium">5. Training</h3>
+          <h3 className="text-xl mt-3 mb-4 font-medium">5. Pelatihan</h3>
           <p className="mt-3">
-            Provide training to clients and employees to ensure that they
-            understand and can use the system effectively.
+            Memberikan arahan kepada klien dan karyawan untuk memastikan bahwa mereka memahami dan apat menggunakan sistem dengan efektif
           </p>
         </div>
         <div className="p-8 mt-3 text-center border-indigo-600 shadow-lg dark:shadow-indigo-600 rounded-lg hover:scale-105 cursor-pointer duration-100">
@@ -147,9 +147,9 @@ export const Workflow = () => {
               ></path>
             </svg>
           </div>
-          <h3 className="text-xl mt-3 mb-4 font-medium">6. Support</h3>
+          <h3 className="text-xl mt-3 mb-4 font-medium">6. Handover</h3>
           <p className="mt-3">
-            We will provide technical support and problem fixes if any.
+            Memberikan dokumentasi lengkap terkait dengan sistem yang digunakan mulai dari arsitektur, konfigurasi, serta prosedur pengoperasional
           </p>
         </div>
         <div className="p-8 mt-3 text-center border-indigo-600 shadow-lg dark:shadow-indigo-600 rounded-lg hover:scale-105 cursor-pointer duration-100">
@@ -169,10 +169,9 @@ export const Workflow = () => {
               ></path>
             </svg>
           </div>
-          <h3 className="text-xl mt-3 mb-4 font-medium">7. Handovers</h3>
+          <h3 className="text-xl mt-3 mb-4 font-medium">7. Pemantauan & Evaluasi</h3>
           <p className="mt-3">
-            Provide complete documentation of the system, including
-            architecture, configuration, and operational procedures.
+            Memantau kinerja sistem secara berkala untuk memastikan bahwa sistem berjalan dengan baik sehingga bermanfaat bagi bisnis klien
           </p>
         </div>
         <div className="p-8 mt-3 text-center border-indigo-600 shadow-lg dark:shadow-indigo-600 rounded-lg hover:scale-105 cursor-pointer duration-100">
@@ -193,12 +192,10 @@ export const Workflow = () => {
             </svg>
           </div>
           <h3 className="text-xl mt-3 mb-4 font-medium">
-            8. Monitoring and Evaluation
+            8. Dukungan
           </h3>
           <p className="mt-3">
-            Monitor system performance regularly to ensure that the system is
-            running properly and providing benefits to the client&apos;s
-            business.
+            Memberikan dukungan teknis dan perbaikan jika terdapat masalah
           </p>
         </div>
       </div>

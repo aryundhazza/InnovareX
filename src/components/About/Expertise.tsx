@@ -8,6 +8,8 @@ const expertiseData = [
       { name: "CSS 3", imgSrc: "/img/skills/css3-icon.webp" },
       { name: "JavaScript", imgSrc: "/img/skills/javascript-icon.webp" },
       { name: "React JS", imgSrc: "/img/skills/reactjs-icon.webp" },
+      { name: "Vue JS", imgSrc: "/img/skills/vuejs.png" },
+      { name: "Next JS", imgSrc: "/img/skills/nextjs.png" }
     ],
   },
   {
@@ -15,17 +17,25 @@ const expertiseData = [
     skills: [
       { name: "PHP", imgSrc: "/img/skills/php-icon.webp" },
       { name: "Node JS", imgSrc: "/img/skills/nodejs-icon.webp" },
-      { name: "Python", imgSrc: "/img/skills/python-icon.webp" },
+      // { name: "Python", imgSrc: "/img/skills/python-icon.webp" },
       { name: "Laravel", imgSrc: "/img/skills/laravel-icon.webp" },
+    ],
+  },
+  {
+    title: "Design Grafis",
+    skills: [
+      { name: "Adobe Creative Cloud", imgSrc: "/img/skills/flutter-icon.webp" },
+      { name: "Sketch", imgSrc: "/img/skills/sketch.png" },
+      { name: "Figma", imgSrc: "/img/skills/figma.png" },
+      { name: "Canva", imgSrc: "/img/skills/canva.png" },
     ],
   },
   {
     title: "Mobile Development",
     skills: [
-      { name: "Flutter", imgSrc: "/img/skills/flutter-icon.webp" },
-      { name: "Kotlin", imgSrc: "/img/skills/kotlin-icon.webp" },
+      { name: "React Native", imgSrc: "/img/skills/reactnative.png" }
     ],
-  },
+  }
 ];
 
 const OurExpertise = () => {
@@ -35,10 +45,10 @@ const OurExpertise = () => {
         <div className="space-y-6">
           <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl ext-gray-800 dark:text-white">
-              Our Expertise
+              Keahlian Kami
             </h2>
             <p className="leading-3">
-              The technology we use is always at the forefront and most popular
+              Teknologi yang kami gunakan selalu menjadi yang terdepan dan paling populer
             </p>
           </div>
           <div className="grid sm:grid-cols-3 mx-auto gap-6">

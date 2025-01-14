@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import heroImg from "../../../public/img/hero.png";
+import heroImg from "../../../public/hero.png";
 
 const HeroSection = () => {
   return (
@@ -14,16 +14,14 @@ const HeroSection = () => {
             <div>
               <div className="mt-6 sm:max-w-xl">
                 <h1 className="text-4xl sm:text-5xl font-bold tracking-tight text-gray-800 dark:text-white pb-4">
-                  PT Innovarex Solusi Digital
+                  PT Innovarex Teknologi
                 </h1>
                 <div className="flex">
                   <hr className="w-10 h-1 bg-black text-black rounded-lg" />
                   <hr className="w-4 h-1 bg-black text-black rounded-lg opacity-20 ml-1" />
                 </div>
                 <p className="mt-6 text-xl text-gray-500 dark:text-gray-300">
-                  Hadir untuk memberikan solusi digital yang tepat dan efektif
-                  bagi bisnis Anda. Kami memahami bahwa setiap bisnis memiliki
-                  kebutuhan yang unik
+                  Kami hadir untuk menyediakan solusi digital yang tepat dan efektif, disesuaikan dengan kebutuhan unik setiap bisnis Anda. Kami memahami bahwa setiap perusahaan memiliki tantangan dan tujuan yang berbeda, dan kami siap membantu Anda mencapainya.
                 </p>
               </div>
               <div className="mt-6 sm:mt-8 flex gap-4">
@@ -48,7 +46,7 @@ const HeroSection = () => {
               <div className="hidden sm:block">
                 <div className="absolute inset-y-0 left-1/2 w-screen rounded-l-3xl bg-gray-200 dark:bg-indigo-600 lg:left-80 lg:right-0 lg:w-full"></div>
                 <svg
-                  className="absolute top-8 right-1/2 -mr-3 lg:left-0 lg:m-0"
+                  className="absolute top-8 right-1/2 -mr-3 lg:left-0 lg:m-0 z-[-1]"
                   width="404"
                   height="392"
                   fill="none"
@@ -83,7 +81,7 @@ const HeroSection = () => {
               <div className="relative pl-4 sm:px-0 lg:pl-12 sm:mx-auto sm:max-w-3xl lg:h-full lg:max-w-none 2xl:pr-[550px] lg:text-center">
                 <Image
                   src={heroImg}
-                  className="mx-auto md:w-auto lg:w-auto lg:max-w-none lg:h-full h-96"
+                  className="mx-auto md:w-auto lg:w-auto lg:max-w-none lg:h-full h-96 scale-x-[-1]"
                   alt="Hero Image"
                 />
               </div>
