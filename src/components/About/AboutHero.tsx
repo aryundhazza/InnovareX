@@ -35,7 +35,7 @@ const HeroSection = () => {
                 </a>
                 <a
                   target="_blank"
-                  href="https://wa.me/+6282248289273"
+                  href="https://wa.me/+6285810644289"
                   className="rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 shadow hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:px-10 hover:text-white"
                 >
                   Contact Us

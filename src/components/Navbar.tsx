@@ -29,7 +29,7 @@ export const Navbar = () => {
         <div className="hidden mr-3 lg:flex nav__item">
           <Link
             target="_blank"
-            href="https://wa.me/+6282248289273"
+            href="https://wa.me/+6285810644289"
             className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5"
           >
             Let&apos;s Talk
@@ -119,7 +119,7 @@ export const Navbar = () => {
                 ))}
                 <Link
                   target="_blank"
-                  href="https://wa.me/+6289510678123"
+                  href="https://wa.me/+6285810644289"
                   className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5"
                 >
                   Let&apos;s Talk
@@ -141,7 +141,7 @@ export const Navbar = () => {
         </Link>
         <Link
           className="text-sm text-gray-900 dark:text-gray-100 font-semibold leading-6 relative group"
-          href="#services"
+          href="/web-services"
         >
           Services
           <span className="absolute -bottom-0 left-0 w-0 h-1 rounded-lg bg-indigo-600 transition-all group-hover:w-full"></span>

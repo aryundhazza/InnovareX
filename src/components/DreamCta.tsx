@@ -22,7 +22,7 @@ export const DreamCTA = () => {
               it a reality.
             </p>
             <a
-              href="https://wa.me/+6282248289273"
+              href="https://wa.me/+6285810644289"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white shadow hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-indigo-800 focus:ring-offset-2 sm:px-10 hover:text-white"

@@ -11,7 +11,7 @@ export const WhatsappCta = () => {
           </h2>
           <a
             target="_blank"
-            href="https://wa.me/+6282248289273"
+            href="https://wa.me/+6285810644289"
             className="rounded-lg hover:bg-green-600 bg-green-500 text-slate-900 font-bold p-4 mt-6 inline-flex gap-2"
           >
             <svg
